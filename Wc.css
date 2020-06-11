@@ -1,0 +1,28 @@
+.Wc
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Wc>textarea{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 1px black;
+    outline: none;
+    padding:10px 3px;
+
+}
+.wc>button
+{
+border-radius: 10px;
+background-color:black;
+color:white;
+height:30px;
+}
+.Wc>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    color:solid black;
+}
