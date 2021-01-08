@@ -4,7 +4,7 @@ function count()
     noofwords=noofwords.match(/\w+/g);
     if(noofwords.length<201)
     {
-        document.getElementById("count").innerHTML="Number of words written: "+noofwords;
+        document.getElementById("count").innerHTML="Number of words written: "+noofwords.length;
         var r=200-noofwords.length;
         document.getElementById("remaining").innerHTML="Number of words remaining: "+r;
     }
